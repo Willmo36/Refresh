@@ -1,0 +1,17 @@
+{
+  "name": "Refresh",
+  "version": "1.0",
+  "description": "Refresh the browser when you save a file. Requires the refresh server to be running.",
+  "permissions": [
+    
+  ],
+  "browser_action": {
+      "default_title": "Refresh",
+      "default_icon": "icon.png"
+  },
+  "background":{
+      "page": "background.html"   
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
